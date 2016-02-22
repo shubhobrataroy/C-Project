@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Title="C# Project" Height="700" Width="1050" Background="#FF424040">
     <Grid Height="319" VerticalAlignment="Top">
-        
+        <Button x:Name="button" Content="LOGIN" Height="95" Margin="390,0,397,-281" VerticalAlignment="Bottom" Background="#FF999999" RenderTransformOrigin="0.48,-0.381" FontSize="33.333" FontFamily="Showcard Gothic" />
+        <PasswordBox x:Name="passwordBox" Margin="360,0,262,-86" Height="65" VerticalAlignment="Bottom"/>
+        <TextBox x:Name="textBox" Margin="360,0,262,69" TextWrapping="Wrap" Height="60" VerticalAlignment="Bottom"/>
+        <Label x:Name="label" Content="USERNAME" HorizontalAlignment="Left" Margin="80,0,0,69" Width="215" FontSize="38.667" Background="#FFDCC3C3" FontFamily="Showcard Gothic" RenderTransformOrigin="0.488,1.25" Height="60" VerticalAlignment="Bottom"/>
+        <Label x:Name="label_Copy" Content="PASSWORD" HorizontalAlignment="Left" Margin="80,0,0,-86" Width="215" FontSize="36.667" Background="#FFDCC3C3" FontFamily="Showcard Gothic" Height="60" VerticalAlignment="Bottom"/>
+        <Label x:Name="label1" Content="HRM LOGIN" Height="135" Margin="295,10,262,0" VerticalAlignment="Top" FontSize="66.667" FontFamily="Showcard Gothic"/>
+
     </Grid>
 </Window>
